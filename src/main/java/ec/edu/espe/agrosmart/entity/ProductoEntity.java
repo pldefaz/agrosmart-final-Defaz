@@ -25,7 +25,7 @@ public class ProductoEntity {
     private String categoria;
 
     @Column(name = "correos_notificacion", length = 500)
-    private String correosNotificacion; // separados por coma; "" = sin correos
+    private String correosNotificacion;
 
     public ProductoEntity() {
         // constructor vacío obligatorio para Hibernate
